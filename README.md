@@ -73,6 +73,7 @@
 * Spring MVC (Spring Web)
 * Spring Data JPA com Hibernate
 * MySql
+* Lombok
 ### Ferramentas usadas
 * Eclipse IDE 4.16.0
 * MySql rodando com XAMPP
