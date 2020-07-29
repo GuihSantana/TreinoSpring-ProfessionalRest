@@ -5,11 +5,19 @@
 ## Descrição
  ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos daods em JSON:
 
-* profissional/cargo/addCargo
-* profissional/cargos
-* profissional/cargo/{id}
-* profissional/cargo/update
-* profissional/cargo/delete/{id}
+Objeto Cargo
+* profissional/cargo/addCargo // adiciona cargos
+* profissional/cargos	// lista todos os cargos
+* profissional/cargo/{id} //lista cargo pelo id
+* profissional/cargo/update //altera um cargo
+* profissional/cargo/delete/{id} //deleta um cargo pelo id
+
+Objeto Trilha
+* profissional/trilha/addTrilha
+* profissional/trilhas
+* profissional/trilha/{id}
+* profissional/trilha/update	
+* profissional/trilha/delete/{id}
 	
  ### Bibliotécas usadas
 * Spring Boot
