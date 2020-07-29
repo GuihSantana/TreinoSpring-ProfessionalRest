@@ -3,7 +3,7 @@
 ## Esse projeto disponibiliza endpoints para CRUD de informações em baco Mysql
 
 ## Descrição
- ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos daods em JSON:
+ ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos dados em JSON:
 
 Objeto Cargo
 * profissional/cargo/addCargo     // adiciona cargos
