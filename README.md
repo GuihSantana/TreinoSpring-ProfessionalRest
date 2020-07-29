@@ -39,10 +39,33 @@
 * {URL}/profissional/cargo/delete/{id}  - deleta um cargo pelo id (DELETE)
 
 ## Objeto Trilha
-* profissional/trilha/addTrilha    //adiciona trilha
+* {URL}/profissional/trilha/addCargo     - adiciona cargos
+### Exemplo Body Request - POST
+----
+
+```json
+{
+    "trilhaNome": "ADMINISTRAÇÃO DE PESSOAL",
+    "diretoria": "G&G",
+    "missaoFormal": "Planejar, executar e mensurar a administração de pessoal.",
+    "missaoAlternativa": "Garantir que as leis trabalhistas estejam sendo cumpridas com eficácia e eficiência."
+}
+```
+* {URL}/profissional/trilha/update       -altera um cargo
+### Exemplo Body Request - PUT
+----
+
+```json
+{	
+    "id": 1,
+    "trilhaNome": "ADMINISTRAÇÃO DE PESSOAL",
+    "diretoria": "G&G",
+    "missaoFormal": "Planejar, executar e mensurar a administração de pessoal.",
+    "missaoAlternativa": "Garantir que as leis trabalhistas estejam sendo cumpridas com eficácia e eficiência."
+}
+```
 * profissional/trilhas		   //lista todas trilhas
 * profissional/trilha/{id}	   //lista trilha por id
-* profissional/trilha/update	   //altera uma trilha
 * profissional/trilha/delete/{id}  //deleta uma trilha pelo id
 	
  ### Bibliotécas usadas
