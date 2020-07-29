@@ -19,7 +19,6 @@
 ### Ferramentas usadas
 * Eclipse IDE 4.16.0
 * MySql rodando com XAMPP
-* Comando para compilar
 
 ### Como compilar?
 * mvn clean install - Necessário Maven instalado
