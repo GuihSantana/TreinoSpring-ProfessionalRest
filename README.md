@@ -24,12 +24,13 @@
 ----
 
 ```json
-{
+{		
+	"id":1,
         "cargoNome": "Analista de Departamento Pessoal Jr",
         "trilha": {
             "id": 1
         },
-        "cargoMissao": "Realizar controle e processamento da folha de pagamento."
+        "cargoMissao": "Realizar controle e processamento da folha de pagamento, encargos sociais, cálculo de férias,\nadmissões, demissões e benefícios, preparando documentos para homologação e garantindo o\ncumprimento dos procedimentos legais."
 }
 ```
 
