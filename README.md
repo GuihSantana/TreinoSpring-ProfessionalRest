@@ -39,7 +39,7 @@
 * {URL}/profissional/cargo/delete/{id}  - deleta um cargo pelo id (DELETE)
 
 ## Objeto Trilha
-* {URL}/profissional/trilha/addCargo     - adiciona cargos
+* {URL}/profissional/trilha/addTrilha     - adiciona cargos
 ### Exemplo Body Request - POST
 ----
 
@@ -64,9 +64,9 @@
     "missaoAlternativa": "Garantir que as leis trabalhistas estejam sendo cumpridas com eficácia e eficiência."
 }
 ```
-* profissional/trilhas		   //lista todas trilhas
-* profissional/trilha/{id}	   //lista trilha por id
-* profissional/trilha/delete/{id}  //deleta uma trilha pelo id
+* profissional/trilhas		   - lista todas trilhas (GET)
+* profissional/trilha/{id}	   - lista trilha por id (GET)
+* profissional/trilha/delete/{id}  - deleta uma trilha pelo id (DELETE)
 	
  ### Bibliotécas usadas
 * Spring Boot
