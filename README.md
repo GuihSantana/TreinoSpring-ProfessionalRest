@@ -6,7 +6,7 @@
  ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos dados em JSON:
 
 ## Objeto Cargo
-* {URL}/profissional/cargo/addCargo     // adiciona cargos
+* {URL}/profissional/cargo/addCargo     - adiciona cargos
 ### Exemplo Body Request
 ----
 
@@ -19,7 +19,7 @@
         "cargoMissao": "Realizar controle e processamento da folha de pagamento."
 }
 ```
-* {URL}/profissional/cargo/update       //altera um cargo
+* {URL}/profissional/cargo/update       -altera um cargo
 ### Exemplo Body Request
 ----
 
@@ -34,9 +34,9 @@
 }
 ```
 
-* {URL}/profissional/cargos	          // lista todos os cargos
-* {URL}/profissional/cargo/{id}         //lista cargo pelo id
-* {URL}/profissional/cargo/delete/{id}  //deleta um cargo pelo id
+* {URL}/profissional/cargos	          - lista todos os cargos
+* {URL}/profissional/cargo/{id}         - lista cargo pelo id
+* {URL}/profissional/cargo/delete/{id}  - deleta um cargo pelo id
 
 ## Objeto Trilha
 * profissional/trilha/addTrilha    //adiciona trilha
