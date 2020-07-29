@@ -31,8 +31,8 @@
         },
         "cargoMissao": "Realizar controle e processamento da folha de pagamento."
 }
-...
-----
+```
+
 * {URL}/profissional/cargos	          // lista todos os cargos
 * {URL}/profissional/cargo/{id}         //lista cargo pelo id
 * {URL}/profissional/cargo/delete/{id}  //deleta um cargo pelo id
