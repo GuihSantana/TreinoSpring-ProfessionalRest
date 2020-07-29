@@ -1,6 +1,6 @@
 # profissionalApiREST
 
-## Esse projeto disponibiliza endpoints para CRUD de informações em banco de dados Mysql
+## Esse projeto disponibiliza endpoints para CRUD de informações em banco de dados MySQL
 
 ## Descrição
  ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos dados em JSON:
@@ -72,11 +72,11 @@
 * Spring Boot
 * Spring MVC (Spring Web)
 * Spring Data JPA com Hibernate
-* MySql
+* MySQL
 * Lombok
 ### Ferramentas usadas
 * Eclipse IDE 4.16.0
-* MySql rodando com XAMPP
+* MySQL rodando com XAMPP
 
 ### Como compilar?
 * mvn clean install - Necessário Maven instalado
