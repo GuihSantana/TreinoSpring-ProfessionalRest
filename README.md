@@ -1,6 +1,6 @@
 # profissionalApiREST
 
-## Esse projeto disponibiliza endpoints para CRUD de informações em baco Mysql
+## Esse projeto disponibiliza endpoints para CRUD de informações em banco de dados Mysql
 
 ## Descrição
  ### Aqui estão a lista de endpoints que podem ser utilizados para manipulação dos dados em JSON:
