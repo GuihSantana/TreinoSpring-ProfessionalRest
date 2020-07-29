@@ -7,6 +7,14 @@
 
 Objeto Cargo
 * profissional/cargo/addCargo     // adiciona cargos
+Exemplo:
+{
+        "cargoNome": "Analista de Departamento Pessoal Jr",
+        "trilha": {
+            "id": 1
+        },
+        "cargoMissao": "Realizar controle e processamento da folha de pagamento, encargos sociais, cálculo de férias,\nadmissões, demissões e benefícios, preparando documentos para homologação e garantindo o\ncumprimento dos procedimentos legais."
+}
 * profissional/cargos	          // lista todos os cargos
 * profissional/cargo/{id}         //lista cargo pelo id
 * profissional/cargo/update       //altera um cargo
