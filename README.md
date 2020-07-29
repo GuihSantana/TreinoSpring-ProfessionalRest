@@ -7,7 +7,7 @@
 
 ## Objeto Cargo
 * {URL}/profissional/cargo/addCargo     - adiciona cargos
-### Exemplo Body Request
+### Exemplo Body Request - POST
 ----
 
 ```json
@@ -20,7 +20,7 @@
 }
 ```
 * {URL}/profissional/cargo/update       -altera um cargo
-### Exemplo Body Request
+### Exemplo Body Request - PUT
 ----
 
 ```json
@@ -34,9 +34,9 @@
 }
 ```
 
-* {URL}/profissional/cargos	          - lista todos os cargos
-* {URL}/profissional/cargo/{id}         - lista cargo pelo id
-* {URL}/profissional/cargo/delete/{id}  - deleta um cargo pelo id
+* {URL}/profissional/cargos	          - lista todos os cargos (GET)
+* {URL}/profissional/cargo/{id}         - lista cargo pelo id	(GET)
+* {URL}/profissional/cargo/delete/{id}  - deleta um cargo pelo id (DELETE)
 
 ## Objeto Trilha
 * profissional/trilha/addTrilha    //adiciona trilha
