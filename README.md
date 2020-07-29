@@ -30,7 +30,7 @@
         "trilha": {
             "id": 1
         },
-        "cargoMissao": "Realizar controle e processamento da folha de pagamento, encargos sociais, cálculo de férias,\nadmissões, demissões e benefícios, preparando documentos para homologação e garantindo o\ncumprimento dos procedimentos legais."
+        "cargoMissao": "Realizar controle e processamento da folha de pagament0."
 }
 ```
 
