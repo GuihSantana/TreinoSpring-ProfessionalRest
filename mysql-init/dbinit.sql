@@ -1,11 +1,10 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: 29-Jul-2020 às 20:10
--- Versão do servidor: 10.1.40-MariaDB
--- versão do PHP: 7.3.5
+DROP DATABASE IF EXISTS profissionais;
+CREATE DATABASE profissionais;
+CREATE USER 'guilherme'@'localhost' IDENTIFIED BY 'guilherme';
+GRANT ALL PRIVILEGES ON *.* TO 'guilherme'@'%';
+FLUSH PRIVILEGES;
+
+USE profissionais;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `profissao`
+-- Database: profissionais;
 --
 
 -- --------------------------------------------------------
